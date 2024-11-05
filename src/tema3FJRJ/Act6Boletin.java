@@ -15,7 +15,6 @@ public class Act6Boletin {
 			palabra = sca.next();
 
 		} while (palabra.length() <= 1);
-		// Pide una palabra de longitud mayor a 1
 
 		for (int i = palabra.length()-1 ; i >= 0; i--) {
 			String caracter = palabra.substring(i, i + 1);
