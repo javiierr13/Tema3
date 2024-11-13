@@ -1,0 +1,43 @@
+package tema3FJRJ;
+
+import java.util.Scanner;
+
+public class Repaso {
+
+	public static void main(String[] args) {
+
+		Scanner sca = new Scanner(System.in);
+
+		int numero;
+		int suerte = 0;
+		int noSuerte = 0;
+
+		do {
+			System.out.println("Introduzca un número");
+			numero = sca.nextInt();
+
+		} while (numero <= 0);
+
+		int copia = numero;
+
+		while (numero > 0) {
+			int digito = numero % 10;
+			if (digito == 3 || digito == 7 || digito == 8 || digito == 9) {
+				suerte++;
+			} else {
+				noSuerte++;
+			}
+			numero /= 10;
+		}
+
+		if (suerte > noSuerte) {
+			System.out.printf("Numero %d es AFORTUNADO \n", copia);
+		} else {
+			System.out.printf("Numero %d NO es afortunado \n", copia);
+
+		}
+
+	}
+}
+
+//10,11,13,14,16, cajafuerte, vladi, mbappe

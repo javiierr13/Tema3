@@ -18,6 +18,8 @@ public class Act13Boletin {
 			contra = sca.next();
 			for (int i = 0; i < contra.length(); i++) {
 				String caracater = contra.substring(i, i + 1);
+				// lo de arriba parte la contraseña por caracteres, y cada caracer lo comprueva
+				// abajo
 
 				if (caracater.matches("[A-Z]")) {
 					mayusculas++;
@@ -32,6 +34,6 @@ public class Act13Boletin {
 
 		} while (contra.length() < 10 || (mayusculas < 2 || minusculas < 2 || numeros < 2 || especiales < 2));
 		System.out.println("Contraseña VALIDA");
-
+//comprueba el tamaño de la contraseña mediante el numero de caracteres y mediante los contadores
 	}
 }

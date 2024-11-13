@@ -23,4 +23,3 @@ public class Act10Boletin {
 	}
 
 }
-//10,11,13,14,16, cajafuerte, vladi, mbappe

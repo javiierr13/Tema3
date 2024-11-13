@@ -16,3 +16,4 @@ public class Act11Boletin {
 		System.out.printf("En total pagará %d€.\n", dineroTotal);
 	}
 }
+//la i indica el numero de veces que se ejecutara el bucle

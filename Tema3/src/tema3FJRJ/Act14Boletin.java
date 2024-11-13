@@ -18,6 +18,7 @@ public class Act14Boletin {
 
 		} while (numero <= 0);
 		// do /while valida que el numero sea positivo
+		
 		int numero1 = numero;
 
 		while (numero > 0) {
