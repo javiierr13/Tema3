@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Users\fruijim102\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551" stamp="1726744846085"/>
+    <entry loc="C:\Users\fruijim102\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre" stamp="1726744852791"/>
     <entry loc="C:\Users\Javier\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre" stamp="1728410714821"/>
+    <entry loc="C:\Program Files\Eclipse Adoptium\jdk-17.0.12.7-hotspot" stamp="1726744351718"/>
     <entry loc="C:\Users\Javier\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551" stamp="1728410708098"/>
 </dirs>

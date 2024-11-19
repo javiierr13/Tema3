@@ -20,7 +20,6 @@ public class Act14Boletin {
 		// do /while valida que el numero sea positivo
 		int numero1 = numero;
 
-		while (numero > 0) {
 			int digito = numero % 10;
 			if (digito == 3 || digito == 7 || digito == 8 || digito == 9) {
 				suerte++;
@@ -28,7 +27,7 @@ public class Act14Boletin {
 				noSuerte++;
 			}
 			numero = numero / 10;
-		}
+		
 
 		if (suerte > noSuerte) {
 			System.out.printf("El %d es un numero afortunado", numero1);
