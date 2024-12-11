@@ -18,7 +18,7 @@ public class Act1Moodle {
 
             if (letra.equals(letra.toUpperCase())) {
                 resultado = resultado + letra.toLowerCase();
-            } else {
+            } else if(letra.equals(letra.toLowerCase())) {
                 resultado = resultado + letra.toUpperCase();
             }
         }

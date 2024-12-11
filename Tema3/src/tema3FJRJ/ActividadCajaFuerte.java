@@ -26,7 +26,7 @@ public class ActividadCajaFuerte {
 
 		} while (contrasenna != contra && contador < 4);
 		if (contrasenna == contra && contador < 4) {
-			System.out.println("Padentro");
+			System.out.println("PUEDES ENTRAR");
 		} else {
 			System.out.println("Agotado fallos");
 		}
@@ -34,26 +34,3 @@ public class ActividadCajaFuerte {
 	}
 
 }
-
-
-//MI VERSION
-//Scanner sca = new Scanner(System.in);
-//Random random = new Random();
-//
-//int contra = random.nextInt(1000, 9999);
-//System.out.println(contra);
-//int codigo = 0;
-//
-//do {
-//	System.out.println("Introduce la contraseña");
-//	codigo = sca.nextInt();
-//	if (contra!=codigo) {
-//		System.out.println("Contraseña Incorrecta");
-//	}
-//	
-//} while (contra!=codigo);
-//System.out.println("Contraseña correcta , PADENTRO");
-//
-//}
-//
-//}
